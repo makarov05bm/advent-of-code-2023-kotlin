@@ -1,7 +1,5 @@
 import java.io.File
 
-class Gear(var rs: Int, var ls: Int, var ts: Int, var bs: Int, var tr: Int, var tl: Int, var br: Int, var bl: Int)
-
 fun main(args: Array<String>) {
     var linesCount = 0
     val len = (File("src/data_day_03.txt").useLines { it.firstOrNull() })!!.length
