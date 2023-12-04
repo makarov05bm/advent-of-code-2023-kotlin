@@ -3,7 +3,7 @@ import java.io.File
 fun main(args: Array<String>) {
     val linesList = mutableListOf<String>()
 
-    File("src/data.txt").useLines { lines -> lines.forEach { item -> linesList.add(item) } }
+    File("src/data_day_2.txt").useLines { lines -> lines.forEach { item -> linesList.add(item) } }
 
     val numbers = mutableListOf<Int>()
 
