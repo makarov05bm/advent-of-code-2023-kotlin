@@ -2,7 +2,7 @@ import java.io.File
 
 fun main(args: Array<String>) {
     var linesCount = 0
-    val len = (File("src/data_day_03.txt").useLines { it.firstOrNull() })!!.length
+    val len = (File("src/data_day_3.txt").useLines { it.firstOrNull() })!!.length
 
     File("src/data_day_03.txt").useLines { lines -> lines.forEach { line ->
         linesCount++
